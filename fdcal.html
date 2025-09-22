@@ -1,22 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Second Life Femdom Communities Calendar Overview</title>
-
-        <style>
-        h2 {
-            color: #2FBDA0;
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Life Femdom Communities Calendar Overview</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/css/foundation.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @media screen and (min-width: 1170px) {
+            body {
+                /* background-color: #1A1A1E;*/
+                background-color: #121214 !important;
+            }
         }
-        
+        body {
+            background-color: #1A1A1E;
+            height: 100%;
+        }
+        html {
+            height: 100%;
+        }
+        .grid-container {
+            height: 100%;
+        }
+        .grid-x {
+            height: 100%;
+        }
+        .tabs, .tab-content, .tabs-panel ,.grid-x {
+            background-color: #1A1A1E;
+            color: #EEEEEE;
+        }
+        .tabs, .tabs-content {
+            border-color: #29292D;
+        }
+
+        .headline {
+            color: #2FBDA0;
+            padding-top: 50px;
+            padding-bottom: 20px;
+        }
         a {
             text-decoration: none;
             color: #5197ED;
         }
 
         a:hover {
-            text-decoration: underline;
             color: #5197ED;
         }
 
@@ -24,252 +53,233 @@
             color: #5197ED;
         }
 
+        tbody {
 
-        html {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #1A1A1E;
-            color: #EEEEEF;
-        }
-
-        .s2 {
-            font-weight: bold;
-            width: 200px;
-            min-width: 70px;
-            font-size: 18px;
-            vertical-align: bottom;
-        }
-
-        .s3 {
-            text-align: left;
-            font-size: 14px;
-        }
-
-        .s4 {
-            padding-top:30px;
-            text-align: left;
-            font-size: 14px;
             border: 0px;
         }
-
-
-        .s5 {
-            font-size: 16px;
+        tbody tr:nth-child(odd) {
+            background-color: #29292D;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #1A1A1E;
         }
 
-        .s6 {
-            width: 140px;
-            font-size: 16px;
-            text-align: center;
+        .tabs-title>a:focus, .tabs-title>a[aria-selected=true] {
+            background-color: #29292D;
         }
-        .centered {
-            display: block;
-            margin: 50px auto 0px auto;
-            padding-left: 15px;
-            padding-right: 15px;
-            max-width: 670px;
+        .tabs-title>a:hover, .tabs-title>a[aria-selected=true] {
+            background-color: #29292D;
+            color: #EEEEEE;
+            font-weight:bold;
+            text-decoration: none;
         }
 
-        td {
-            border-bottom: 1px solid #29292D;
-            padding-left: 10px; 
-            padding-right: 10px;
-            margin: 0px;
+        .tabs-title>a:hover {
+            color: #EEEEEE;
         }
-
-        td:last-child {
-            padding-right: 0px;
+        .tabs-title>a:visited, .tabs-title>a  {
+            color: #7E7F87;
+            font-size:0.9em;
+            font-weight:bold;
         }
-        td:first-child {
-            padding-left: 0px;
-        }
-        table {
-            margin-bottom: 35px;
-        }
-        </style>
-    </head>
-    <body>
-        <div class="centered">
-            <h2> The Second Life Femdom Communities Calendar Overview</h2>
-            <table cellspacing="0" cellpadding="0">
-                <tr>
-                    <td class="s2">SLT Timezone</td>
-                    <td class="s3" colspan="3">These links will open a window with the chosen calendar and view
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">The Realm</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">FCC Community Events</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">The Meld 2025</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=month">Month</a>
-                    </td>
-                </tr>
-            </table>
+        
 
-            <table>
-                <tr>
-                    <td class="s2">UK Timezone</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="s5">The Realm</td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=week">Week</a>
-                    </td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">FCC Community Events</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">The Meld 2025</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=month">Month</a>
-                    </td>
-                </tr>
-            </table>
 
-            <table>
-                <tr>
-                    <td class="s2">CET Timezone</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td class="s5">The Realm</td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=week">Week</a>
-                    </td>
-                    <td class="s6"><a target="_blank"
-                            href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">FCC Community Events</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=month">Month</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">The Meld 2025</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=agenda">Agenda</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=week">Week</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=month">Month</a>
-                    </td>
-                </tr>
-            </table>
-            <table>
-                <tr>
-                    <td class="s2">Add to your calendar</td>
-                    <td class="s3" colspan="3">With these links you can add an event calendar to your own Google calendar or iCal compatible calendar application (i.e. Outlook)
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">The Realm</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar?cid=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com">Google</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/ical/0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com/public/basic.ics">iCal</a>
-                    </td>
-                    <td class="s6">
-                    </td>
-                </tr>
-                <tr>
-                    <td class="s5">FCC Community Events</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar?cid=fccinsl@gmail.com">Google</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/ical/fccinsl@gmail.com/public/basic.ics">iCal</a>
-                    </td>
-                    <td class="s6">
-                    </td>
-                </tr>
+    </style>
+  </head>
+  <body>
 
-                <tr>
-                    <td class="s5">The Meld 2025</td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar?cid=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143%40group.calendar.google.com">Google</a>
-                    </td>
-                    <td class="s6">
-                        <a target="_blank" href="https://calendar.google.com/calendar/ical/1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143%40group.calendar.google.com/public/basic.ics">iCal</a>
-                    </td>
-                    <td class="s6">
-                    </td>
-                </tr>      
 
-                <tr>
-                    <td class="s4" colspan="4">
-                        Please note, some applications only support one-time imports though iCal and won't pick up event changes or new ewents unless an updated version of the ical file is imported again.
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </body>
+
+    <article class="grid-container">
+      <div class="grid-x align-center">
+        <div class="cell medium-8">
+
+            <h3 class="headline show-for-large">SecondLife Femdom Communities Calendars</h3>
+            <h3 class="headline show-for-medium hide-for-large">SL Femdom Communities Calendars</h3>
+            <h1 class="headline show-for-small hide-for-medium">SL Femdom Communities Calendars</h1>
+
+            <ul class="tabs" data-tabs id="timezone-tabs">
+            <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">SLT</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel2" href="#panel2">UK</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel3" href="#panel3">CET</a></li>
+            <li class="tabs-title"><a data-tabs-target="panel4" href="#panel4">Add to your calendar</a></li>
+            </ul>
+            <div class="tabs-content" data-tabs-content="timezone-tabs">
+                <div class="tabs-panel is-active" id="panel1">
+                <p>These links will open a window with the chosen calendar and view</p>
+                <table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td>The Realm</td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=America/Los_Angeles&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FCC Community Events</td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=America/Los_Angeles&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>The Meld 2025</td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                            </td>
+                            <td>
+                                <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=America/Los_Angeles&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <p>Calendars on this tab are in Second Life Time (SLT)</p>
+            </div>
+
+            <div class="tabs-panel" id="panel2">
+                <p>These links will open a window with the chosen calendar and view</p>
+                <table>
+                    <tr>
+                        <td>The Realm</td>
+                        <td><a target="_blank"
+                                href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td>
+                        <td><a target="_blank"
+                                href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td><a target="_blank"
+                                href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/London&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FCC Community Events</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/London&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Meld 2025</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/London&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                </table>
+                <p>Calendars on this tab are in the Timezone Europe/London</p>
+            </div>
+
+
+            <div class="tabs-panel" id="panel3">
+                <p>These links will open a window with the chosen calendar and view</p>
+                <table>
+                    <tr>
+                        <td>The Realm</td>
+                        <td><a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td>
+                        <td><a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td><a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com&ctz=Europe/Berlin&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FCC Community Events</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td> 
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=fccinsl@gmail.com&ctz=Europe/Berlin&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Meld 2025</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=agenda">Agenda <i class="hide-for-small show-for-medium fa-solid fa-list"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=week">Week <i class="hide-for-small show-for-medium fa-solid fa-table-columns"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/u/0/embed?src=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143@group.calendar.google.com&ctz=Europe/Berlin&mode=month">Month <i class="hide-for-small show-for-medium fa-solid fa-calendar-days"></i></a>
+                        </td>
+                    </tr>
+                </table>
+                <p>Calendars on this tab are in the Timezone Europe/Berlin</p>
+            </div>
+
+            <div class="tabs-panel" id="panel4">
+                <p>With these links you can add an event calendar to your own Google calendar or iCal compatible calendar application (i.e. Outlook)</p>
+                <table>
+                    <tr>
+                        <td>The Realm</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar?cid=0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com">Google Calendar <i class="hide-for-small show-for-medium fa-brands fa-google"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/ical/0027412020c76c7b253e5fef4ef8d3b5d8afa11eaf855b5c05486a8635d138ac@group.calendar.google.com/public/basic.ics">iCal <i class="hide-for-small show-for-medium fa-brands fa-apple"></i> <i class="hide-for-small show-for-medium fa-brands fa-windows"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>FCC Community Events</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar?cid=fccinsl@gmail.com">Google Calendar <i class="hide-for-small show-for-medium fa-brands fa-google"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/ical/fccinsl@gmail.com/public/basic.ics">iCal <i class="hide-for-small show-for-medium fa-brands fa-apple"></i> <i class="hide-for-small show-for-medium fa-brands fa-windows"></i></a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>The Meld 2025</td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar?cid=1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143%40group.calendar.google.com">Google Calendar <i class="hide-for-small show-for-medium fa-brands fa-google"></i></a>
+                        </td>
+                        <td>
+                            <a target="_blank" href="https://calendar.google.com/calendar/ical/1f51b7dd1a046b95184855b6dae000d658b433157231877fdc58cfc2668a8143%40group.calendar.google.com/public/basic.ics">iCal <i class="hide-for-small show-for-medium fa-brands fa-apple"></i> <i class="hide-for-small show-for-medium fa-brands fa-windows"></i></a>
+                        </td>
+                    </tr>      
+                </table>    
+                <p>Please note, some applications only support one-time imports though iCal and won't pick up event changes or new ewents unless an updated version of the ical file is imported again.</p>
+            </div>
+
+
+            </div>
+
+        </div> <!-- cell -->
+      </div> <!-- grid -->
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.9.0/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
 </html>
